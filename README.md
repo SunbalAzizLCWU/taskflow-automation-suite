@@ -24,7 +24,7 @@ Smart automation platform combining task management, webhook-based automation, A
 ## Architecture
 
 ```
-[React SPA / GitLab Pages]  --HTTPS-->  [Express API / Render|Fly]
+[React SPA / GitLa Pages]  --HTTPS-->  [Express API / Render|Fly]
                                            |
    +-------+--------+---------+-----------+-------------+
    |       |        |         |           |             |
