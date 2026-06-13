@@ -21,7 +21,7 @@ jobs:
       - name: Install and Build
         run: |
           cd frontend
-          npm install
+          npm install --legacy-peer-deps
           npm run build
         env:
           VITE_API_URL: ${{ vars.VITE_API_URL }}
